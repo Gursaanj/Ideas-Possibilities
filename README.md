@@ -1,12 +1,15 @@
 # Ideas-Possibilities
-A list of projects that have potential or that Interest me
 
+In this Branch
 
-In this Repository I want to upload and edit projects that I've either started and left behind or have a real keen interest in continuing
+I create some audio tools that I could use to pipeline any sounds files I might want to tackle with future projects
 
-Most of my inspiration for the projects that I commit to come from me playing around with a lot of different ideas and material
+I was thinking of making a rhythm game for Unity, and wanted to create "power-ups" or things of that nature where the music or certain sound effects would be effected as a consequence from the player's actions.
 
-The ones I feel will benefit my growth are the ones I usually decide to work on. Whereas I leave the rest of the ideas in the dust.
-So the purpose of this repository is to keep inventory of all different projects I've either started or have a strong interest in so that in the future, when I'm looking a new personal project, I will have a list waiting for me right here.
+In this case I wanted to alter the rate (BPM) and pitch of the sounds depending on how responsive the player was (a more distortive pitch would indicate lower the acceptable performance).
 
-Each branch will present a different tool or inspiration that I can easily refer to
+So I created some python script that would take the output sounds file that is generated at periodic times and use that information to either quicken, deepen, or demonize the voice. The sound file (wav) was regenerated and ready to be imported to the appropriate file system (and delete the generated file in the process).
+
+The Fourier transform file was for more general approaches to wave transformation. In this case, I intend to use it (haven't not used it as of yet) to take sound file or a wavelength of color and output and Fourier transform in phase space or vice versa. One application I see this being used for is in color objectification.
+
+for example, If I were to create to take certain sounds (say generated from the player) I could turn them into sinusoidal waves that would correspond with a color and amplitude, A visualizer inn real time. So a louder voice with higher pitch will correspond a wave with larger amplitude and high frequency (so something more bluer). This transform will be useful and easy to integrate to certain pipelines. 
